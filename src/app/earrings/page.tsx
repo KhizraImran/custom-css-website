@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Earrings = () => {
 const  earringData =[
 {id: 1, name: 'Chandbali Earrings', price: 4000 , description: ' Graceful Traditional Elegance', image: '/img1.png' },    
@@ -14,7 +14,7 @@ return(
         <div className='earrings'>
             {earringData.map((earrings) =>(
                 <div key={earrings.id} className='earrings-card'>
-                    <img src={earrings.image} alt={earrings.name} />
+                    <Image src={earrings.image} alt={earrings.name} />
                     <h3>{earrings.name}</h3>
                     <p>{earrings.description}</p>
                     <div className='price'>${earrings.price}</div>
