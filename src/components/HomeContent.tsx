@@ -6,7 +6,7 @@ const Home = () => {
       <section className='hero' style={{backgroundImage:"url('/main img.jpeg')"}}>
        <div>
         <h1 className='text-in'>Welcome to Delicate Earrings</h1>
-        <p>"Discover Elegant Earrings That Define Your Style <br /> Perfect for Every Occasion!" </p>
+        <p>&quot;Discover Elegant Earrings That Define Your Style <br /> Perfect for Every Occasion!&quot; </p>
           <button>Shop Now</button>
         </div> 
       </section>
